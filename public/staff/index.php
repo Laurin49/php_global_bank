@@ -12,6 +12,11 @@
                     Subjects
                 </a>
             </li>
+            <li>
+                <a href="<?php echo url_for('/staff/pages/index.php'); ?>">
+                    Pages
+                </a>
+            </li>
         </ul>
     </div>
 </div>

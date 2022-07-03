@@ -39,7 +39,8 @@
                 </td>
                 <td><?php echo $subject['menu_name']; ?></td>
                 <td>
-                    <a class="action" href="<?php echo url_for('/staff/subjects/show.php?id=' . $subject['id']);?>">
+                    <a class="action"
+                        href="<?php echo url_for('/staff/subjects/show.php?id=' . h(u($subject['id'])));?>">
                         View
                     </a>
                 </td>
